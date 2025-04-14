@@ -36,22 +36,29 @@ This is a full-stack clone of Netflix, built using the MERN stack (MongoDB, Expr
 ```bash
 git clone https://github.com/ChristopherOng4/Netflix-Clone.git
 cd Netflix-Clone
+```
 
 ### 2. Setup backend
 
+```bash
 cd backend
 npm install
 npm start
+```
 
 ### 3. Setup Frontend
 
+```bash
 cd ../frontend
 npm install
 npm start
+```
 
 ### 4. Environment Variables
+```bash
 MONGO_URL=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+```
 
 
 
